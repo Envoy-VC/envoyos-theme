@@ -1,0 +1,40 @@
+{
+	"name": "envoyos-theme",
+	"displayName": "EnvoyOS Theme",
+	"description": "A subtle intersection between poimandres and After Dark.",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Envoy-VC/envoyos-theme.git"
+	},
+	"scripts": {
+		"publish:vsmarket": "vsce publish"
+	},
+	"keywords": [
+		"React",
+		"minimal",
+		"Dark Theme",
+		"Vivid Colors",
+		"Night Theme"
+	],
+	"engines": {
+		"vscode": "^1.87.0"
+	},
+	"galleryBanner": {
+		"color": "#0E131B",
+		"theme": "dark"
+	},
+	"icon": "logo.png",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "EnvoyOS Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/EnvoyOS Theme-color-theme.json"
+			}
+		]
+	}
+}
