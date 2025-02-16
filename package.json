@@ -1,7 +1,7 @@
 {
 	"name": "envoyos-theme",
 	"displayName": "EnvoyOS Theme",
-	"description": "A subtle intersection between poimandres and After Dark.",
+	"description": "A subtle intersection between poimandres and JetBrains Fleet",
 	"version": "0.0.1",
 	"publisher": "envoy1084",
 	"repository": {
@@ -11,13 +11,7 @@
 	"scripts": {
 		"publish:vsmarket": "vsce publish"
 	},
-	"keywords": [
-		"React",
-		"minimal",
-		"Dark Theme",
-		"Vivid Colors",
-		"Night Theme"
-	],
+	"keywords": ["React", "minimal", "Dark Theme", "Vivid Colors", "Night Theme"],
 	"engines": {
 		"vscode": "^1.87.0"
 	},
@@ -26,9 +20,7 @@
 		"theme": "dark"
 	},
 	"icon": "logo.webp",
-	"categories": [
-		"Themes"
-	],
+	"categories": ["Themes"],
 	"contributes": {
 		"themes": [
 			{
